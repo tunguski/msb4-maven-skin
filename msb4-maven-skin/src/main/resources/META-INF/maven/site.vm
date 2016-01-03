@@ -1615,7 +1615,7 @@
     <div id="toc-bar" class="navbar navbar-light bg-faded" data-spy="affix" data-offset-top="$tocOffsetTop">
       <div class="">
         <div id="toc-scroll-target" class="container">
-          <div class="navbar-collapse" id="toc-nav-collapse">
+          <div class="navbar" id="toc-nav-collapse">
             <ul id="toc" class="nav navbar-nav">
 #*              // display Table of Contents in a top bar
               *##topToc ( $tocItems )
