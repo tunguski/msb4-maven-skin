@@ -1,5 +1,7 @@
 ## Usage
 
+**Before official release you need to build this plugin locally.**
+
 To use this Maven skin, include it in your [`site.xml` site descriptor][site-xml] file:
 
 [site-xml]: http://maven.apache.org/doxia/doxia-sitetools/doxia-decoration-model/decoration.html

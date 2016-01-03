@@ -10,6 +10,8 @@ http://tunguski.github.io/msb4-maven-skin!
 
 ## Usage
 
+**Before official release you need to build this plugin locally.**
+
 To use this Maven skin, include it in your `site.xml` file:
 
 ```xml
