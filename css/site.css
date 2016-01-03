@@ -14,6 +14,14 @@ body[class*="page-themes-bootswatch"] .color-highlight {
 	color: inherit;
 }
 
+.jumbotron {
+  background-color: initial;
+}
+
+header.navbar-fixed-top {
+  border-bottom: 1px solid #ddd;
+}
+
 .thumbnail-row {
 	margin-top: 10px;
 }
@@ -31,23 +39,31 @@ h3, h4, h5, h6 {
 }
 
 /* A bit of workaround for links being not clickable due to :before element in headings */
-.project-msb3-parent.page-index h2[id]:before {
+.project-msb4-parent.page-index h2[id]:before {
   height: 30px;
   margin-top: -30px;
 }
 
-.project-msb3-parent.page-index .sidebar {
+.project-msb4-parent.page-index .sidebar {
   margin-top: 10px;
 }
 
-.project-msb3-parent.page-index .sidebar {
+.project-msb4-parent.page-index .sidebar {
   margin-top: 10px;
 }
 
-.project-msb3-parent.page-index .sidebar h3 {
+.project-msb4-parent.page-index .sidebar h3 {
   margin-top: 10px;
 }
 
+@media (max-width: 48em) {
+  .navbar-nav .nav-item+.nav-item,
+  .navbar-nav .nav-item {
+    display: block;
+    width: 100%;
+    margin-left: 0;
+  }
+}
 
 @media (min-width: 980px) {
   .page-themes-bootswatch-readable .navbar.affix {
