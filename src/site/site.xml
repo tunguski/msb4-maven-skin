@@ -10,7 +10,7 @@
       <span class="color-highlight">Msb4</span> Maven Skin
       ]]>
     </name>
-    <href>http://localhost:8082/</href>
+    <href>http://tunguski.github.io/msb4-maven-skin/</href>
   </bannerLeft>
   
   <publishDate position="bottom" format="yyyy-MM-dd" />
@@ -31,7 +31,7 @@
       <theme>default</theme>
       <highlightJs>true</highlightJs>
       <highlightJsTheme>github</highlightJsTheme>
-      <absoluteResourceURL>http://localhost:8082/</absoluteResourceURL>
+      <absoluteResourceURL>http://tunguski.github.io/msb4-maven-skin/</absoluteResourceURL>
       <brand>
         <!-- Brand text in top-left part of the site -->
         <name>
@@ -39,7 +39,7 @@
           <span class="color-highlight">Msb4</span> Maven Skin
           ]]>
         </name>
-        <href>http://localhost:8082/</href>
+        <href>http://tunguski.github.io/msb4-maven-skin/</href>
       </brand>
       <slogan>Apache Maven skin built on Bootstrap 4.0</slogan>
       <titleTemplate>%2$s | %1$s</titleTemplate>
