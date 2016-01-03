@@ -1,11 +1,11 @@
 # Contribute
 
-Msb3 skin is an open-source project and all contributions are welcome to assist with its
+Msb4 skin is an open-source project and all contributions are welcome to assist with its
 development and maintenance. The skin originated as a new skin for the upcoming
 [Community Z Tools][czt] release, which uses Maven site for its documentation.
 
 Along the way I realised that the skin is becoming general enough to be released separately so that
-the whole community can benefit. Msb3 Maven skin and the associated Msb3 Velocity tools can be
+the whole community can benefit. Msb4 Maven skin and the associated Msb4 Velocity tools can be
 used freely and are released under [Apache license][apache-license].
 
 [czt]: http://czt.sourceforge.net
@@ -15,29 +15,29 @@ used freely and are released under [Apache license][apache-license].
 ## Issues (bug and feature tracker)
 
 Please report any bugs found, feature requests or other issues on
-[Msb3 skin GitHub tracker][msb3-issues].
+[Msb4 skin GitHub tracker][msb4-issues].
 
 When creating a new issue, try following [necolas's guidelines][issue-guidelines].
 
-[msb3-issues]: http://github.com/tunguski/msb3-maven-skin/issues/
+[msb4-issues]: http://github.com/tunguski/msb4-maven-skin/issues/
 [issue-guidelines]: http://github.com/necolas/issue-guidelines/#readme
 
 
 ## Fork, patch and contribute code
 
-Feel free to fork Msb3 skin's [Git repository at GitHub][msb3-github] for your own use and
+Feel free to fork Msb4 skin's [Git repository at GitHub][msb4-github] for your own use and
 updates.
 
 Contribute your fixes and new features back to the main codebase using
 [GitHub pull requests][github-pull-req].
 
-[msb3-github]: http://github.com/tunguski/msb3-maven-skin/
+[msb4-github]: http://github.com/tunguski/msb4-maven-skin/
 [github-pull-req]: http://help.github.com/articles/using-pull-requests
 
 
 ## Support
 
-Let me know if you are using Msb3 skin in your project. I may get around to creating a showcase
+Let me know if you are using Msb4 skin in your project. I may get around to creating a showcase
 page listing skin user sites.
 
 [Contact me][av-site] if you have questions about the skin, or just like to say something about it.
@@ -50,7 +50,7 @@ If you _really really_ like the skin and want to support the author, I will be g
 
 ## Acknowledgements
 
-Msb3 skin is built on [Bootstrap][bootstrap] and uses themes from [Bootswatch][bootswatch].
+Msb4 skin is built on [Bootstrap][bootstrap] and uses themes from [Bootswatch][bootswatch].
 These include icons from [Glyphicons][glyphicons] and web fonts from [Google][webfonts].
 
 JavaScript goodies with [jQuery][jquery].

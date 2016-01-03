@@ -1,10 +1,10 @@
-# [Msb3 Maven skin]( http://tunguski.github.io/msb3-maven-skin/ )
+# [Msb4 Maven skin]( http://tunguski.github.io/msb4-maven-skin/ )
 
-Msb3 is an Apache Maven site skin built on [Bootstrap 3.3][bootstrap]. It allows various structural
+Msb4 is an Apache Maven site skin built on [Bootstrap 4.0][bootstrap]. It allows various structural
 and stylistic customizations to create a modern-looking Maven-generated website.
 
 To get started and see how the skin looks by default, check out
-http://tunguski.github.io/msb3-maven-skin!
+http://tunguski.github.io/msb4-maven-skin!
 
 [bootstrap]: http://getbootstrap.com
 
@@ -17,14 +17,14 @@ To use this Maven skin, include it in your `site.xml` file:
   ...
   <skin>
     <groupId>pl.matsuo.maven.skins</groupId>
-    <artifactId>msb3-maven-skin</artifactId>
-    <version>0.1.2-SNAPSHOT</version>
+    <artifactId>msb4-maven-skin</artifactId>
+    <version>0.1.0-SNAPSHOT</version>
   </skin>
   ...
 </project>
 ```
 
-The skin requires accompanying Msb3 Velocity tools (`msb3-velocity-tools`) to be available when
+The skin requires accompanying Msb4 Velocity tools (`msb4-velocity-tools`) to be available when
 generating Maven site. Add them as a dependency to `maven-site-plugin` in your POM file:
 
 ```xml
@@ -34,15 +34,15 @@ generating Maven site. Add them as a dependency to `maven-site-plugin` in your P
     <plugin>
       <groupId>org.apache.maven.plugins</groupId>
       <artifactId>maven-site-plugin</artifactId>
-      <version>3.3</version>
+      <version>4.0</version>
       <dependencies>
         ...
         <dependency>
           <groupId>pl.matsuo.maven.skins</groupId>
-          <artifactId>msb3-velocity-tools</artifactId>
-          <version>0.1.2-SNAPSHOT</version>
+          <artifactId>msb4-velocity-tools</artifactId>
+          <version>0.1.0-SNAPSHOT</version>
         </dependency>
-        <!-- Msb3 skin requires Velocity >= 1.7  -->
+        <!-- Msb4 skin requires Velocity >= 1.7  -->
         <dependency>
           <groupId>org.apache.velocity</groupId>
           <artifactId>velocity</artifactId>
@@ -66,10 +66,10 @@ on using the skin with Maven 2 site or other configurations.
 
 ### Configuration
 
-The skin is configurable using the `<custom><msb3Skin>` element in your `site.xml` file.
-Refer to [documentation][msb3-config] for all configuration options.
+The skin is configurable using the `<custom><msb4Skin>` element in your `site.xml` file.
+Refer to [documentation][msb4-config] for all configuration options.
 
-[msb3-config]: http://tunguski.github.io/msb3-maven-skin/skin/config.html
+[msb4-config]: http://tunguski.github.io/msb4-maven-skin/skin/config.html
 
 A sample configuration file is given below:
 
@@ -77,11 +77,11 @@ A sample configuration file is given below:
 <project>
   ...
   <custom>
-    <msb3Skin>
+    <msb4Skin>
       <theme>bootswatch-spacelab</theme>
       <brand>
         <name>My Project</name>
-        <href>http://tunguski.github.io/msb3-maven-skin/</href>
+        <href>http://tunguski.github.io/msb4-maven-skin/</href>
       </brand>
       <slogan>Super interesting project doing good things.</slogan>
       <titleTemplate>%2$s | %1$s</titleTemplate>
@@ -111,7 +111,7 @@ A sample configuration file is given below:
           <toc>sidebar</toc>
         </developer-info>
       </pages>
-    </msb3Skin>
+    </msb4Skin>
   </custom>
   ...
 </project>
@@ -124,7 +124,7 @@ A sample configuration file is given below:
 Have a bug or a feature request? Please create an issue here on GitHub that conforms with
 [necolas's guidelines](http://github.com/necolas/issue-guidelines).
 
-http://github.com/tunguski/msb3-maven-skin/issues
+http://github.com/tunguski/msb4-maven-skin/issues
 
 
 ## Contributing

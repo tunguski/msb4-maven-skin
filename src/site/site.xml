@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project name="Msb3 Maven Skin"
+<project name="Msb4 Maven Skin"
   xmlns="http://maven.apache.org/DECORATION/1.3.0"
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://maven.apache.org/DECORATION/1.3.0 http://maven.apache.org/xsd/decoration-1.3.0.xsd">
 
   <bannerLeft>
-    <!-- Msb3 Maven Skin, but with "Msb3" highlighted -->
+    <!-- Msb4 Maven Skin, but with "Msb4" highlighted -->
     <name><![CDATA[
-      <span class="color-highlight">Msb3</span> Maven Skin
+      <span class="color-highlight">Msb4</span> Maven Skin
       ]]>
     </name>
-    <href>http://tunguski.github.io/msb3-maven-skin</href>
+    <href>http://localhost:8082/</href>
   </bannerLeft>
   
   <publishDate position="bottom" format="yyyy-MM-dd" />
@@ -19,29 +19,29 @@
 
   <skin>
     <groupId>pl.matsuo.maven.skins</groupId>
-    <artifactId>msb3-maven-skin</artifactId>
-    <version>0.1.2-SNAPSHOT</version>
+    <artifactId>msb4-maven-skin</artifactId>
+    <version>0.1.0-SNAPSHOT</version>
   </skin>
 
   <custom>
-    <msb3Skin>
+    <msb4Skin>
       <!-- Make this to 'false' for local development, i.e. file:// URLs -->
       <protocolRelativeURLs>false</protocolRelativeURLs>
       <smoothScroll>true</smoothScroll>
       <theme>default</theme>
       <highlightJs>true</highlightJs>
       <highlightJsTheme>github</highlightJsTheme>
-      <absoluteResourceURL>http://tunguski.github.io/msb3-maven-skin/</absoluteResourceURL>
+      <absoluteResourceURL>http://localhost:8082/</absoluteResourceURL>
       <brand>
         <!-- Brand text in top-left part of the site -->
         <name>
           <![CDATA[
-          <span class="color-highlight">Msb3</span> Maven Skin
+          <span class="color-highlight">Msb4</span> Maven Skin
           ]]>
         </name>
-        <href>http://tunguski.github.io/msb3-maven-skin</href>
+        <href>http://localhost:8082/</href>
       </brand>
-      <slogan>Responsive Apache Maven skin built on Bootstrap 3.3</slogan>
+      <slogan>Apache Maven skin built on Bootstrap 4.0</slogan>
       <titleTemplate>%2$s | %1$s</titleTemplate>
       <!-- Use Table of Contents at the top of the page (max 6 elements) -->
       <toc>top</toc>
@@ -57,16 +57,16 @@
       </bottomNav>
       <bottomDescription>
         <![CDATA[
-          <span class="color-highlight">Msb3</span> is an Apache Maven site skin built on
-          <a href="http://getbootstrap.com" title="Bootstrap">Bootstrap 3.3</a>.
+          <span class="color-highlight">Msb4</span> is an Apache Maven site skin built on
+          <a href="http://getbootstrap.com" title="Bootstrap">Bootstrap 4.0</a>.
           It allows various structural and stylistic customizations to create a
           modern-looking Maven-generated website.
         ]]>
       </bottomDescription>
       <pages>
-        <index project="msb3-parent">
+        <index project="msb4-parent">
           <!-- Override the title -->
-          <titleTemplate>Msb3 Maven Skin</titleTemplate>
+          <titleTemplate>Msb4 Maven Skin</titleTemplate>
           <!-- no breadcrumbs on the main index page -->
           <breadcrumbs>false</breadcrumbs>
           <!-- no ToC on the main index page -->
@@ -105,7 +105,7 @@
           <tocTopMax>4</tocTopMax>
         </dependencies>
       </pages>
-    </msb3Skin>
+    </msb4Skin>
   </custom>
 
   <body>
@@ -116,17 +116,17 @@
   
     <links>
       <item name="Download" href="skin/index.html#Usage" />
-      <item name="GitHub project" href="http://github.com/tunguski/msb3-maven-skin/" />
+      <item name="GitHub project" href="http://github.com/tunguski/msb4-maven-skin/" />
     </links>
 
     <breadcrumbs>
-      <item name="Msb3" href="/" />
+      <item name="Msb4" href="/" />
     </breadcrumbs>
   
     <menu name="Main" inherit="top">
       <item name="Home" href="./" />
-      <item name="GitHub project" href="http://github.com/tunguski/msb3-maven-skin/" />
-      <item name="Blog" href="http://blog.matsuo.pl/tag/msb3-maven-skin/" />
+      <item name="GitHub project" href="http://github.com/tunguski/msb4-maven-skin/" />
+      <item name="Blog" href="http://blog.matsuo.pl/tag/msb4-maven-skin/" />
       <item name="Release notes" href="release-notes.html" />
     </menu>
     <menu name="Download" inherit="top">
@@ -144,13 +144,13 @@
       <item name="Local resources" href="skin/resources.html" />
     </menu>
     <menu name="Tools" inherit="bottom">
-      <item name="Msb3 Velocity tools" href="msb3-velocity-tools/" />
-      <item name="Tools Javadoc" href="msb3-velocity-tools/apidocs/" />
+      <item name="Msb4 Velocity tools" href="msb4-velocity-tools/" />
+      <item name="Tools Javadoc" href="msb4-velocity-tools/apidocs/" />
     </menu>
     <menu name="Contribute" inherit="bottom">
       <item name="Contribute" href="contribute.html" />
-      <item name="Issues" href="http://github.com/tunguski/msb3-maven-skin/issues/" />
-      <item name="Fork on GitHub" href="http://github.com/tunguski/msb3-maven-skin/" />
+      <item name="Issues" href="http://github.com/tunguski/msb4-maven-skin/issues/" />
+      <item name="Fork on GitHub" href="http://github.com/tunguski/msb4-maven-skin/" />
       <item name="Donate" href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;amp;hosted_button_id=QWKNRFZH52828" />
     </menu>
     <menu name="Maven documentation" ref="reports" inherit="bottom"/>

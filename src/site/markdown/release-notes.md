@@ -1,9 +1,9 @@
 # Release notes
 
-The history of Msb3 Maven skin releases is documented below. For details of changes refer to the
-[project's GitHub issues][msb3-issues] or the [GitHub report][github-report].
+The history of Msb4 Maven skin releases is documented below. For details of changes refer to the
+[project's GitHub issues][msb4-issues] or the [GitHub report][github-report].
 
-[msb3-issues]: http://github.com/tunguski/msb3-maven-skin/issues?state=closed
+[msb4-issues]: http://github.com/tunguski/msb4-maven-skin/issues?state=closed
 [github-report]: github-report.html
 
 
@@ -11,7 +11,7 @@ The history of Msb3 Maven skin releases is documented below. For details of chan
 
 ### Major enhancements
 
--   Bootstrap 3.3
+-   Bootstrap 4.0
 
 ### Minor enhancements
 
