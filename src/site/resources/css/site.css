@@ -22,6 +22,10 @@ header.navbar-fixed-top {
   border-bottom: 1px solid #ddd;
 }
 
+#toc-bar {
+  border: 1px solid #ddd;
+}
+
 .thumbnail-row {
 	margin-top: 10px;
 }
