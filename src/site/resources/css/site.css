@@ -14,6 +14,10 @@ body[class*="page-themes-bootswatch"] .color-highlight {
 	color: inherit;
 }
 
+.jumbotron {
+  background-color: initial;
+}
+
 header.navbar-fixed-top {
   border-bottom: 1px solid #ddd;
 }
