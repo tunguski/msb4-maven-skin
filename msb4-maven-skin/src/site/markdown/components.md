@@ -42,8 +42,6 @@ The ToC snaps to the top of the screen to allow easy navigation in long pages.
 
 #### Change when the ToC snaps to the top
 
-**Requires Msb4 Maven skin &ge; v1.1.0.**
-
 The moment when the ToC snaps to the top of the screen depends on the theme you are using
 as well as whether other components (e.g. the banner or the breadcrumbs) are shown.
 You can adjust the snapping point by indicating the amount of pixels from the top to activate it.

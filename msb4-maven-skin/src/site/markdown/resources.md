@@ -11,8 +11,6 @@ These include newer versions of the used libraries as well as arbitrary scripts.
 
 ## Local Bootstrap & jQuery
 
-**Requires Msb4 Maven skin &ge; v1.1.0.**
-
 To force the generated site use only local CSS/JavaScript resources, use the `<localResources>`
 flag:
 
@@ -103,8 +101,6 @@ variable, e.g.:
 
 
 ## Additional JavaScript files
-
-**Requires Msb4 Maven skin &ge; v1.1.0.**
 
 JavaScript files can be added to the page head together with CSS files. However, for performance
 reasons, it can be better to reference JavaScript files at the end of the document.
